@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22218D401DD98ED30096CAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D3F1DD98ED30096CAED /* AppDelegate.swift */; };
+		22218D421DD98ED30096CAED /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D411DD98ED30096CAED /* IndexViewController.swift */; };
+		22218D481DD98ED30096CAED /* McDonalds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22218D461DD98ED30096CAED /* McDonalds.xcdatamodeld */; };
+		22218D4A1DD98ED30096CAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22218D491DD98ED30096CAED /* Assets.xcassets */; };
+		22218D4D1DD98ED30096CAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22218D4B1DD98ED30096CAED /* LaunchScreen.storyboard */; };
+		22218D551DD9B58B0096CAED /* CouponCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D541DD9B58B0096CAED /* CouponCollectionViewCell.swift */; };
+		22218D571DDA332E0096CAED /* CouponDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D561DDA332E0096CAED /* CouponDateProvider.swift */; };
+		22218D591DDA40F80096CAED /* CouponTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D581DDA40F80096CAED /* CouponTableViewController.swift */; };
+		22218D5B1DDA44040096CAED /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D5A1DDA44040096CAED /* CouponTableViewCell.swift */; };
+		22218D5D1DDAFB920096CAED /* CouponButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D5C1DDAFB920096CAED /* CouponButtonViewController.swift */; };
+		22218D611DDC5B530096CAED /* CouponType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D601DDC5B530096CAED /* CouponType.swift */; };
+		22218D631DDC5B720096CAED /* Coupons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D621DDC5B720096CAED /* Coupons.swift */; };
+		22218D661DDEE9E00096CAED /* PopverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D651DDEE9E00096CAED /* PopverController.swift */; };
+		22218D681DE01EC90096CAED /* CouponRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22218D671DE01EC90096CAED /* CouponRealmData.swift */; };
+		225B878D1DE6EE8C00ADCC90 /* CouponCollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B878C1DE6EE8C00ADCC90 /* CouponCollectionViewHeaderView.swift */; };
+		225B878F1DE8146F00ADCC90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225B878E1DE8146F00ADCC90 /* GoogleService-Info.plist */; };
+		225B87941DE8345700ADCC90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B87931DE8345700ADCC90 /* FBSDKCoreKit.framework */; };
+		225B87971DE8392500ADCC90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225B87961DE8392500ADCC90 /* FBSDKLoginKit.framework */; };
+		57DA8933A4C92DED6126FAD1 /* Pods_McDonalds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3315B6A40A39DBD0CB1AC077 /* Pods_McDonalds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22218D3C1DD98ED30096CAED /* McDonalds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McDonalds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22218D3F1DD98ED30096CAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22218D411DD98ED30096CAED /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		22218D471DD98ED30096CAED /* McDonalds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = McDonalds.xcdatamodel; sourceTree = "<group>"; };
+		22218D491DD98ED30096CAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22218D4C1DD98ED30096CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22218D4E1DD98ED30096CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22218D541DD9B58B0096CAED /* CouponCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponCollectionViewCell.swift; sourceTree = "<group>"; };
+		22218D561DDA332E0096CAED /* CouponDateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponDateProvider.swift; sourceTree = "<group>"; };
+		22218D581DDA40F80096CAED /* CouponTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponTableViewController.swift; sourceTree = "<group>"; };
+		22218D5A1DDA44040096CAED /* CouponTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		22218D5C1DDAFB920096CAED /* CouponButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponButtonViewController.swift; sourceTree = "<group>"; };
+		22218D601DDC5B530096CAED /* CouponType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponType.swift; sourceTree = "<group>"; };
+		22218D621DDC5B720096CAED /* Coupons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupons.swift; sourceTree = "<group>"; };
+		22218D651DDEE9E00096CAED /* PopverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopverController.swift; sourceTree = "<group>"; };
+		22218D671DE01EC90096CAED /* CouponRealmData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponRealmData.swift; sourceTree = "<group>"; };
+		225B878C1DE6EE8C00ADCC90 /* CouponCollectionViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponCollectionViewHeaderView.swift; sourceTree = "<group>"; };
+		225B878E1DE8146F00ADCC90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		225B87931DE8345700ADCC90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		225B87961DE8392500ADCC90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		3315B6A40A39DBD0CB1AC077 /* Pods_McDonalds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McDonalds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		955F016F6C57909A63514ED4 /* Pods-McDonalds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McDonalds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-McDonalds/Pods-McDonalds.debug.xcconfig"; sourceTree = "<group>"; };
+		B095D111210936DE96BADDA2 /* Pods-McDonalds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McDonalds.release.xcconfig"; path = "Pods/Target Support Files/Pods-McDonalds/Pods-McDonalds.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22218D391DD98ED30096CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA8933A4C92DED6126FAD1 /* Pods_McDonalds.framework in Frameworks */,
+				225B87941DE8345700ADCC90 /* FBSDKCoreKit.framework in Frameworks */,
+				225B87971DE8392500ADCC90 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22218D331DD98ED30096CAED = {
+			isa = PBXGroup;
+			children = (
+				22218D3E1DD98ED30096CAED /* McDonalds */,
+				22218D3D1DD98ED30096CAED /* Products */,
+				74D6E80D9EB2D60803BB40B5 /* Pods */,
+				50C352765F9E3C3D43BE583A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22218D3D1DD98ED30096CAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22218D3C1DD98ED30096CAED /* McDonalds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22218D3E1DD98ED30096CAED /* McDonalds */ = {
+			isa = PBXGroup;
+			children = (
+				225B87951DE838AE00ADCC90 /* Controller */,
+				225B87901DE8335300ADCC90 /* Cell */,
+				22218D641DDC5CBF0096CAED /* CouponModel */,
+				22218D3F1DD98ED30096CAED /* AppDelegate.swift */,
+				22218D491DD98ED30096CAED /* Assets.xcassets */,
+				22218D4B1DD98ED30096CAED /* LaunchScreen.storyboard */,
+				22218D4E1DD98ED30096CAED /* Info.plist */,
+				225B878E1DE8146F00ADCC90 /* GoogleService-Info.plist */,
+				22218D461DD98ED30096CAED /* McDonalds.xcdatamodeld */,
+			);
+			path = McDonalds;
+			sourceTree = "<group>";
+		};
+		22218D641DDC5CBF0096CAED /* CouponModel */ = {
+			isa = PBXGroup;
+			children = (
+				22218D561DDA332E0096CAED /* CouponDateProvider.swift */,
+				22218D601DDC5B530096CAED /* CouponType.swift */,
+				22218D621DDC5B720096CAED /* Coupons.swift */,
+				22218D671DE01EC90096CAED /* CouponRealmData.swift */,
+			);
+			name = CouponModel;
+			sourceTree = "<group>";
+		};
+		225B87901DE8335300ADCC90 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22218D541DD9B58B0096CAED /* CouponCollectionViewCell.swift */,
+				225B878C1DE6EE8C00ADCC90 /* CouponCollectionViewHeaderView.swift */,
+				22218D5A1DDA44040096CAED /* CouponTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		225B87951DE838AE00ADCC90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22218D411DD98ED30096CAED /* IndexViewController.swift */,
+				22218D581DDA40F80096CAED /* CouponTableViewController.swift */,
+				22218D5C1DDAFB920096CAED /* CouponButtonViewController.swift */,
+				22218D651DDEE9E00096CAED /* PopverController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		50C352765F9E3C3D43BE583A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225B87961DE8392500ADCC90 /* FBSDKLoginKit.framework */,
+				225B87931DE8345700ADCC90 /* FBSDKCoreKit.framework */,
+				3315B6A40A39DBD0CB1AC077 /* Pods_McDonalds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74D6E80D9EB2D60803BB40B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				955F016F6C57909A63514ED4 /* Pods-McDonalds.debug.xcconfig */,
+				B095D111210936DE96BADDA2 /* Pods-McDonalds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22218D3B1DD98ED30096CAED /* McDonalds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22218D511DD98ED30096CAED /* Build configuration list for PBXNativeTarget "McDonalds" */;
+			buildPhases = (
+				E6B09B22619BA9A65861A303 /* [CP] Check Pods Manifest.lock */,
+				22218D381DD98ED30096CAED /* Sources */,
+				22218D391DD98ED30096CAED /* Frameworks */,
+				22218D3A1DD98ED30096CAED /* Resources */,
+				95B9F25036FECDFBC64333A3 /* [CP] Embed Pods Frameworks */,
+				9D455B5900F9D6B970FD1F8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = McDonalds;
+			productName = McDonalds;
+			productReference = 22218D3C1DD98ED30096CAED /* McDonalds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22218D341DD98ED30096CAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Winston;
+				TargetAttributes = {
+					22218D3B1DD98ED30096CAED = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AFEY2F4Y7D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22218D371DD98ED30096CAED /* Build configuration list for PBXProject "McDonalds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22218D331DD98ED30096CAED;
+			productRefGroup = 22218D3D1DD98ED30096CAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22218D3B1DD98ED30096CAED /* McDonalds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22218D3A1DD98ED30096CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22218D4D1DD98ED30096CAED /* LaunchScreen.storyboard in Resources */,
+				22218D4A1DD98ED30096CAED /* Assets.xcassets in Resources */,
+				225B878F1DE8146F00ADCC90 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95B9F25036FECDFBC64333A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-McDonalds/Pods-McDonalds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D455B5900F9D6B970FD1F8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-McDonalds/Pods-McDonalds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B09B22619BA9A65861A303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22218D381DD98ED30096CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22218D661DDEE9E00096CAED /* PopverController.swift in Sources */,
+				22218D571DDA332E0096CAED /* CouponDateProvider.swift in Sources */,
+				22218D551DD9B58B0096CAED /* CouponCollectionViewCell.swift in Sources */,
+				22218D421DD98ED30096CAED /* IndexViewController.swift in Sources */,
+				22218D591DDA40F80096CAED /* CouponTableViewController.swift in Sources */,
+				22218D5D1DDAFB920096CAED /* CouponButtonViewController.swift in Sources */,
+				225B878D1DE6EE8C00ADCC90 /* CouponCollectionViewHeaderView.swift in Sources */,
+				22218D611DDC5B530096CAED /* CouponType.swift in Sources */,
+				22218D401DD98ED30096CAED /* AppDelegate.swift in Sources */,
+				22218D5B1DDA44040096CAED /* CouponTableViewCell.swift in Sources */,
+				22218D481DD98ED30096CAED /* McDonalds.xcdatamodeld in Sources */,
+				22218D631DDC5B720096CAED /* Coupons.swift in Sources */,
+				22218D681DE01EC90096CAED /* CouponRealmData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22218D4B1DD98ED30096CAED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22218D4C1DD98ED30096CAED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22218D4F1DD98ED30096CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22218D501DD98ED30096CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22218D521DD98ED30096CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955F016F6C57909A63514ED4 /* Pods-McDonalds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFEY2F4Y7D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Realm\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/RealmSwift\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"/Users/inch/Documents/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = McDonalds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.McDonalds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22218D531DD98ED30096CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B095D111210936DE96BADDA2 /* Pods-McDonalds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFEY2F4Y7D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Realm\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/RealmSwift\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"/Users/inch/Documents/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = McDonalds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.McDonalds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22218D371DD98ED30096CAED /* Build configuration list for PBXProject "McDonalds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22218D4F1DD98ED30096CAED /* Debug */,
+				22218D501DD98ED30096CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22218D511DD98ED30096CAED /* Build configuration list for PBXNativeTarget "McDonalds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22218D521DD98ED30096CAED /* Debug */,
+				22218D531DD98ED30096CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22218D461DD98ED30096CAED /* McDonalds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22218D471DD98ED30096CAED /* McDonalds.xcdatamodel */,
+			);
+			currentVersion = 22218D471DD98ED30096CAED /* McDonalds.xcdatamodel */;
+			path = McDonalds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22218D341DD98ED30096CAED /* Project object */;
+}
